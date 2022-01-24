@@ -1,0 +1,14 @@
+{
+"name": "docs/",
+"description": "docs/",
+"version": "2",
+"minzoom": "0",
+"maxzoom": "10",
+"center": "33.574219,35.029870,10",
+"bounds": "-157.858301,-55.120924,174.763027,78.686917",
+"type": "overlay",
+"format": "pbf",
+"generator": "tippecanoe v1.36.0",
+"generator_options": "./bin/tippecanoe --drop-densest-as-needed --force --no-tile-compression '--output-to-directory=docs/' '--maximum-zoom=10' '--named-layer=adm0_lines:data/ne_10m_admin_0_boundary_lines_land/ne_10m_admin_0_boundary_lines_land.geojson' '--named-layer=adm1_lines:data/ne_10m_admin_1_states_provinces_lines/ne_10m_admin_1_states_provinces_lines.geojson' '--named-layer=places:data/ne_10m_populated_places/ne_10m_populated_places.geojson'",
+"json": "{\"vector_layers\": [ { \"id\": \"adm0_lines\", \"description\": \"\", \"minzoom\": 0, \"maxzoom\": 10, \"fields\": {} }, { \"id\": \"adm1_lines\", \"description\": \"\", \"minzoom\": 0, \"maxzoom\": 10, \"fields\": {} }, { \"id\": \"places\", \"description\": \"\", \"minzoom\": 0, \"maxzoom\": 10, \"fields\": {\"name\": \"String\", \"rank\": \"Number\"} } ],\"tilestats\": {\"layerCount\": 3,\"layers\": [{\"layer\": \"adm0_lines\",\"count\": 7980,\"geometry\": \"LineString\",\"attributeCount\": 0,\"attributes\": []},{\"layer\": \"adm1_lines\",\"count\": 2217,\"geometry\": \"LineString\",\"attributeCount\": 0,\"attributes\": []},{\"layer\": \"places\",\"count\": 186,\"geometry\": \"Point\",\"attributeCount\": 2,\"attributes\": [{\"attribute\": \"name\",\"count\": 186,\"type\": \"string\",\"values\": [\"Abidjan\",\"Accra\",\"Addis Ababa\",\"Ahmedabad\",\"Aleppo\",\"Alexandria\",\"Algiers\",\"Amsterdam\",\"Anchorage\",\"Ankara\",\"Athens\",\"Atlanta\",\"Auckland\",\"Baghdad\",\"Bandung\",\"Bangkok\",\"Baotou\",\"Barcelona\",\"Beijing\",\"Belém\",\"Bengaluru\",\"Berlin\",\"Bogota\",\"Boston\",\"Brasília\",\"Brussels\",\"Bucharest\",\"Budapest\",\"Buenos Aires\",\"Cairo\",\"Cali\",\"Cape Town\",\"Caracas\",\"Casablanca\",\"Changchun\",\"Changsha\",\"Chattogram\",\"Chengdu\",\"Chennai\",\"Chicago\",\"Chongqing\",\"Curitiba\",\"Dakar\",\"Dallas\",\"Damascus\",\"Dar es Salaam\",\"Delhi\",\"Denver\",\"Detroit\",\"Dhaka\",\"Dongguan\",\"Dubai\",\"Dublin\",\"Durban\",\"Edmonton\",\"Fortaleza\",\"Frankfurt\",\"Fuzhou\",\"Geneva\",\"Goiânia\",\"Guadalajara\",\"Guangzhou\",\"Guayaquil\",\"Guiyang\",\"Hamburg\",\"Hangzhou\",\"Hanoi\",\"Harbin\",\"Havana\",\"Helsinki\",\"Hiroshima\",\"Ho Chi Minh City\",\"Hong Kong\",\"Honolulu\",\"Houston\",\"Hyderabad\",\"Istanbul\",\"Jaipur\",\"Jakarta\",\"Jeddah\",\"Jinan\",\"Johannesburg\",\"Kabul\",\"Kano\",\"Kanpur\",\"Karachi\",\"Khartoum\",\"Kiev\",\"Kinshasa\",\"Kolkata\",\"Kuala Lumpur\",\"Kunming\",\"Kuwait City\",\"København\",\"Lagos\",\"Lahore\",\"Lanzhou\",\"Lima\",\"Lisbon\",\"London\"]},{\"attribute\": \"rank\",\"count\": 3,\"type\": \"number\",\"values\": [0,1,2],\"min\": 0,\"max\": 2}]}]}}"
+}
