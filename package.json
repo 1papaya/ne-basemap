@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "download": "bash ./scripts/download.sh",
+    "preprocess": "bash ./scripts/preprocess.sh",
     "build-tiles": "bash ./scripts/build-tiles.sh"
   },
   "license": "MIT",
