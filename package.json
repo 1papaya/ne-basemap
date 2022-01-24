@@ -1,0 +1,13 @@
+{
+  "name": "ne-tiles",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "download": "bash ./scripts/download.sh",
+    "build-tiles": "bash ./scripts/build-tiles.sh"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "mapshaper": "^0.5.87"
+  }
+}
